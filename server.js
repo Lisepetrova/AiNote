@@ -9,8 +9,8 @@ import bookmarkRoutes from './routes/bookmarks.js';
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-if (!process.env.ANTHROPIC_API_KEY) {
-  console.warn('⚠️  ANTHROPIC_API_KEY не задан — анализ видео работать не будет');
+if (!process.env.GEMINI_API_KEY) {
+  console.warn('⚠️  GEMINI_API_KEY не задан — анализ видео работать не будет');
 }
 
 initializeDatabase();

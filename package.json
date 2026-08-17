@@ -1,17 +1,12 @@
 {
   "name": "ainote-backend",
   "version": "1.0.0",
-  "description": "Видео-закладки с ИИ-категоризацией на Claude",
+  "description": "Видео-закладки с ИИ-категоризацией на Gemini",
   "type": "module",
-  "engines": {
-    "node": ">=20"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
-  },
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.40.0",
+    "@google/genai": "^2.17.1",
     "bcryptjs": "^2.4.3",
     "better-sqlite3": "^11.8.0",
     "cors": "^2.8.5",
