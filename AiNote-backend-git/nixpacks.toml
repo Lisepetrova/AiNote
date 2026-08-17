@@ -1,7 +1,0 @@
-# Railway/Nixpacks: ставим системные пакеты, которых нет по умолчанию.
-# ffmpeg — режет кадры; yt-dlp — скачивает видео; python3 нужен yt-dlp.
-[phases.setup]
-nixPkgs = ["nodejs_22", "ffmpeg", "yt-dlp", "python3"]
-
-[start]
-cmd = "node server.js"
