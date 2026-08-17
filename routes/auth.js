@@ -12,6 +12,7 @@ const DEFAULT_FOLDERS = [
   { name: 'Путешествия', emoji: '✈️' },
   { name: 'Профессионал', emoji: '💼' },
   { name: 'Личное', emoji: '🎯' },
+  { name: 'Мемы', emoji: '😂' },
 ];
 
 function signToken(userId) {
